@@ -68,13 +68,21 @@ The app will run at:
 ```
 orbitalbite-frontend/
 ├── public/
+│   └── index.html
 ├── src/
+│   ├── assets/
 │   ├── components/
 │   ├── pages/
-│   ├── api/           # Axios services
-│   └── App.js
+│   ├── redux/
+│   ├── utils/
+│   ├── App.js
+│   ├── index.js
+│   ├── style.css
+│   └── user-style.css
 ├── .env.example
-└── package.json
+├── LICENSE
+├── package.json
+└── README.md
 ```
 
 ---
